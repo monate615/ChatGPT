@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "teiH8WHHAOFwGQGOp4qUAxDLhVXfoH6mJhF2P12sw+AqOXWEMeRraKOPiX7C7oSDbf+ZBERK5CEambjAPKJm0g==",
+  "success": true,
+  "projectFilePath": "F:\\VS\\Git\\ChatGPT\\ChatGPT\\ChatGPT.iOS\\ChatGPT.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Apollo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

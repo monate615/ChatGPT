@@ -1,0 +1,16 @@
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\bin\Debug\netstandard2.0\ChatGPT.deps.json
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\bin\Debug\netstandard2.0\ChatGPT.dll
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\bin\Debug\netstandard2.0\ref\ChatGPT.dll
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\bin\Debug\netstandard2.0\ChatGPT.pdb
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.csproj.AssemblyReference.cache
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.GeneratedMSBuildEditorConfig.editorconfig
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.AssemblyInfoInputs.cache
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.AssemblyInfo.cs
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.csproj.CoreCompileInputs.cache
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.sourcelink.json
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\XamlC.stamp
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.dll
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\refint\ChatGPT.dll
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT\obj\Debug\netstandard2.0\ChatGPT.pdb
