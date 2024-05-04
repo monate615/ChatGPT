@@ -78,21 +78,6 @@
                                         Style="{StaticResource IconButtonStyle}"
                                         Text="{StaticResource Back}" />
 
-                                    <!--  Rounded Profile Image  -->
-                                    <border:SfBorder
-                                        Margin="8,0"
-                                        BackgroundColor="{DynamicResource Gray-200}"
-                                        Style="{StaticResource ProfileBorderStyle}">
-                                        <Image HeightRequest="35" WidthRequest="35">
-                                            <Image.Source>
-                                                <UriImageSource
-                                                    CacheValidity="14"
-                                                    CachingEnabled="true"
-                                                    Uri="{Binding ProfileImage}" />
-                                            </Image.Source>
-                                        </Image>
-                                    </border:SfBorder>
-
                                     <!--  Profile Name  -->
                                     <Label
                                         HorizontalOptions="FillAndExpand"
@@ -105,24 +90,6 @@
                                             <TapGestureRecognizer Command="{Binding ProfileCommand}" />
                                         </Label.GestureRecognizers>
                                     </Label>
-
-                                    <!--  Video call button  -->
-                                    <buttons:SfButton
-                                        Command="{Binding MakeVideoCall}"
-                                        Style="{StaticResource IconButtonStyle}"
-                                        Text="{StaticResource VideoCall}" />
-
-                                    <!--  Voice call button  -->
-                                    <buttons:SfButton
-                                        Command="{Binding MakeVoiceCall}"
-                                        Style="{StaticResource IconButtonStyle}"
-                                        Text="{StaticResource Phone}" />
-
-                                    <!--  Menu Button  -->
-                                    <buttons:SfButton
-                                        Command="{Binding MenuCommand}"
-                                        Style="{StaticResource IconButtonStyle}"
-                                        Text="{StaticResource More}" />
 
                                 </StackLayout>
                                 <BoxView

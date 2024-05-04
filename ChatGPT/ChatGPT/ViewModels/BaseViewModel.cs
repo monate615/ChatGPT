@@ -74,14 +74,15 @@ namespace ChatGPT.ViewModels
         /// <param name="obj">The Object</param>
         private void BackButtonClicked(object obj)
         {
-            if (Device.RuntimePlatform == Device.UWP && Application.Current.MainPage.Navigation.NavigationStack.Count > 1)
-            {
-                Application.Current.MainPage.Navigation.PopAsync();
-            }
-            else if (Device.RuntimePlatform != Device.UWP && Application.Current.MainPage.Navigation.NavigationStack.Count > 0)
-            {
-                Application.Current.MainPage.Navigation.PopAsync();
-            }
+            //if (Device.RuntimePlatform == Device.UWP && Application.Current.MainPage.Navigation.NavigationStack.Count > 1)
+            //{
+            //    Application.Current.MainPage.Navigation.PopAsync();
+            //}
+            //else if (Device.RuntimePlatform != Device.UWP && Application.Current.MainPage.Navigation.NavigationStack.Count > 0)
+            //{
+            //    Application.Current.MainPage.Navigation.PopAsync();
+            //}
+            Application.Current.Quit();
         }
 
         #endregion

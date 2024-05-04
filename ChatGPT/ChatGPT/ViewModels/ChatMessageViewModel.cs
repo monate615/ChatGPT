@@ -305,8 +305,8 @@ namespace ChatGPT.ViewModels
                 {
                     string ans = "";
 
-                    //try
-                    //{
+                    try
+                    {
                         Task.Run(async () =>
                         {
                             ans = await AI.ChatGPT.model.GetResponseFromChatbot();
@@ -318,16 +318,16 @@ namespace ChatGPT.ViewModels
                             Time = DateTime.Now,
                             IsReceived = true,
                         });
-                    //}
-                    //catch (Exception ex)
-                    //{
-                    //    this.ChatMessageInfo.Add(new ChatMessage
-                    //    {
-                    //        Message = ex.Message,
-                    //        Time = DateTime.Now,
-                    //        IsReceived = true,
-                    //    });
-                    //}
+                    }
+                    catch (Exception ex)
+                    {
+                        this.ChatMessageInfo.Add(new ChatMessage
+                        {
+                            Message = ex.Message,
+                            Time = DateTime.Now,
+                            IsReceived = true,
+                        });
+                    }
                 })));
                 workThread.Start();
 
