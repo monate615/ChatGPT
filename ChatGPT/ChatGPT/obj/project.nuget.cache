@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fey5+s/RAirHCBUImHGgGw9NDhwfpWJBYnlPf6Yzo96l3b+Ybv42rTicOPpyjyPem1SP1z2CW3SUESGwXPLQHA==",
+  "dgSpecHash": "SvR5gzFnKVDj7qrdxO3gH21oIjkAVKH/6DWB/5KLlxhIvFl43lIpkVmbwmxp+Wse3z+NRPvxIX7s2p7MP925+A==",
   "success": true,
   "projectFilePath": "F:\\VS\\Git\\ChatGPT\\ChatGPT\\ChatGPT\\ChatGPT.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,15 @@
     "C:\\Users\\Apollo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Apollo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Apollo\\.nuget\\packages\\openai\\1.11.0\\openai.1.11.0.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.licensing\\25.1.42\\syncfusion.licensing.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.buttons\\25.1.42\\syncfusion.xamarin.buttons.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.cards\\25.1.42\\syncfusion.xamarin.cards.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.core\\25.1.42\\syncfusion.xamarin.core.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.datasource\\25.1.42\\syncfusion.xamarin.datasource.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\25.1.42\\syncfusion.xamarin.gridcommon.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\25.1.42\\syncfusion.xamarin.sfcombobox.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.sflistview\\25.1.42\\syncfusion.xamarin.sflistview.25.1.42.nupkg.sha512",
+    "C:\\Users\\Apollo\\.nuget\\packages\\syncfusion.xamarin.sfrating\\25.1.42\\syncfusion.xamarin.sfrating.25.1.42.nupkg.sha512",
     "C:\\Users\\Apollo\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Apollo\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
     "C:\\Users\\Apollo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

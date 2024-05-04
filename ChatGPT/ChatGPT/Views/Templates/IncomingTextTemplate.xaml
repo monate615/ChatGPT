@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewCell
+    x:Class="ChatGPT.Views.IncomingTextTemplate"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:ChatGPT.Controls"
+    xmlns:helper="clr-namespace:ChatGPT.Helpers">
+
+    <ViewCell.View>
+
+        <controls:CustomShadowFrame
+            Padding="0"
+            helper:RTLHelper.Margin="22, 12, 38, 4"
+            BackgroundColor="{DynamicResource GrayShadowColor}"
+            CornerRadius="4"
+            HasShadow="True"
+            HorizontalOptions="Start">
+
+            <controls:CustomShadowFrame.Content>
+                <StackLayout Margin="8" VerticalOptions="FillAndExpand">
+
+                    <!--  Message Text  -->
+                    <Label
+                        FontFamily="Montserrat-Medium"
+                        FontSize="12"
+                        HorizontalOptions="Start"
+                        LineHeight="1.25"
+                        Text="{Binding Message}"
+                        TextColor="{DynamicResource Gray-900}"
+                        VerticalOptions="Fill" />
+
+                    <!--  Time  -->
+                    <Label
+                        FontFamily="Montserrat-Medium"
+                        FontSize="12"
+                        HorizontalOptions="End"
+                        LineHeight="1.25"
+                        Text="{Binding Time, StringFormat='{0:h:mm tt}'}"
+                        TextColor="{DynamicResource Gray-700}"
+                        VerticalOptions="Fill" />
+
+                </StackLayout>
+            </controls:CustomShadowFrame.Content>
+
+        </controls:CustomShadowFrame>
+
+    </ViewCell.View>
+</ViewCell>

@@ -1,4 +1,11 @@
 FormsViewGroup.dll
+Syncfusion.Buttons.XForms.Android.dll
+Syncfusion.Cards.XForms.Android.dll
+Syncfusion.Core.XForms.Android.dll
+Syncfusion.SfComboBox.XForms.Android.dll
+Syncfusion.SfListView.XForms.Android.dll
+Syncfusion.SfRating.Android.dll
+Syncfusion.SfRating.XForms.Android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
