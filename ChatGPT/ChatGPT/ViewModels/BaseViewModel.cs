@@ -82,7 +82,7 @@ namespace ChatGPT.ViewModels
             //{
             //    Application.Current.MainPage.Navigation.PopAsync();
             //}
-            Application.Current.Quit();
+            App.Current.Quit();
         }
 
         #endregion
