@@ -187,6 +187,7 @@ namespace ChatGPT.ViewModels
         /// <summary>
         /// Gets the command that is executed when the send button is clicked.
         /// </summary>
+        [Obsolete]
         public Command SendCommand
         {
             get { return this.sendCommand ?? (this.sendCommand = new Command(this.SendClicked)); }

@@ -5,22 +5,12 @@
     Changes to this file may cause incorrect behavior and will be lost if
     the contents are regenerated.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.chatgpt" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="33" android:targetSdkVersion="33" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.chatgpt" android:installLocation="preferExternal" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="33" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.ACCOUNT_MANAGER" />
-  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-  <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
-  <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
-  <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-  <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
-  <uses-permission android:name="android.permission.BIND_VPN_SERVICE" />
-  <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-  <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <queries>
     <intent>
       <action android:name="android.media.browse.MediaBrowserService" />
