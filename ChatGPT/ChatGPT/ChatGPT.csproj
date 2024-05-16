@@ -29,6 +29,8 @@
 
   <ItemGroup>
     <PackageReference Include="OpenAI" Version="1.11.0" />
+    <PackageReference Include="SocksSharp" Version="1.1.1" />
+    <PackageReference Include="StandardSocketsHttpHandler" Version="2.2.0.8" />
     <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="25.1.42" />
     <PackageReference Include="Syncfusion.Xamarin.Cards" Version="25.1.42" />
     <PackageReference Include="Syncfusion.Xamarin.Core" Version="25.1.42" />

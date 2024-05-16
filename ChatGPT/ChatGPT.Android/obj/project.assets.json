@@ -192,6 +192,31 @@
           }
         }
       },
+      "SocksSharp/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http": "4.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/SocksSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/SocksSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "StandardSocketsHttpHandler/2.2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/StandardSocketsHttpHandler.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/StandardSocketsHttpHandler.dll": {}
+        }
+      },
       "Syncfusion.Licensing/25.1.42": {
         "type": "package",
         "compile": {
@@ -356,6 +381,28 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.Net.Http/4.3.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/monoandroid10/_._": {}
+        },
+        "runtime": {
+          "lib/monoandroid10/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -2159,6 +2206,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "OpenAI": "1.11.0",
+          "SocksSharp": "1.1.1",
+          "StandardSocketsHttpHandler": "2.2.0.8",
           "Syncfusion.Xamarin.Buttons": "25.1.42",
           "Syncfusion.Xamarin.Cards": "25.1.42",
           "Syncfusion.Xamarin.Core": "25.1.42",
@@ -2363,6 +2412,35 @@
         "nuget_logo.png",
         "openai.1.11.0.nupkg.sha512",
         "openai.nuspec"
+      ]
+    },
+    "SocksSharp/1.1.1": {
+      "sha512": "zobPiebpHBt6wMcukxj25kcH1yVy+6c8EG2pKfk5180HkaY/XozdYrueHyhGZ+LdJA/8IMcJHvPILwMhSnzxOg==",
+      "type": "package",
+      "path": "sockssharp/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/_._",
+        "lib/net452/SocksSharp.dll",
+        "lib/net452/SocksSharp.xml",
+        "lib/netstandard2.0/SocksSharp.dll",
+        "lib/netstandard2.0/SocksSharp.xml",
+        "sockssharp.1.1.1.nupkg.sha512",
+        "sockssharp.nuspec"
+      ]
+    },
+    "StandardSocketsHttpHandler/2.2.0.8": {
+      "sha512": "OBEY+nj57eiHn0cHzEFjBJ3nL1SFzlPGTkEwIyfq5jLsC5x7/XpQbqGExODflAyIc70oU4er/uAlNv4p/ZUT1Q==",
+      "type": "package",
+      "path": "standardsocketshttphandler/2.2.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/StandardSocketsHttpHandler.dll",
+        "lib/netstandard2.1/StandardSocketsHttpHandler.dll",
+        "standardsocketshttphandler.2.2.0.8.nupkg.sha512",
+        "standardsocketshttphandler.nuspec"
       ]
     },
     "Syncfusion.Licensing/25.1.42": {
@@ -2653,6 +2731,48 @@
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.Net.Http/4.3.2": {
+      "sha512": "y7hv0o0weI0j0mvEcBOdt1F3CAADiWlcw3e54m8TfYiRmBPDIsHElx8QUPDlY4x6yWXKPGN0Z2TuXCTPgkm5WQ==",
+      "type": "package",
+      "path": "system.net.http/4.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/Xamarinmac20/_._",
+        "lib/monoandroid10/_._",
+        "lib/monotouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Net.Http.dll",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/Xamarinmac20/_._",
+        "ref/monoandroid10/_._",
+        "ref/monotouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Net.Http.dll",
+        "ref/netcore50/System.Net.Http.dll",
+        "ref/netstandard1.1/System.Net.Http.dll",
+        "ref/netstandard1.3/System.Net.Http.dll",
+        "ref/portable-net45+win8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll",
+        "runtimes/win/lib/net46/System.Net.Http.dll",
+        "runtimes/win/lib/netcore50/System.Net.Http.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
+        "system.net.http.4.3.2.nupkg.sha512",
+        "system.net.http.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -4366,7 +4486,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4391,19 +4510,7 @@
             "target": "Package",
             "version": "[25.1.42, )"
           },
-          "Syncfusion.Xamarin.Buttons": {
-            "target": "Package",
-            "version": "[25.1.42, )"
-          },
           "Syncfusion.Xamarin.Cards": {
-            "target": "Package",
-            "version": "[25.1.42, )"
-          },
-          "Syncfusion.Xamarin.Cards": {
-            "target": "Package",
-            "version": "[25.1.42, )"
-          },
-          "Syncfusion.Xamarin.Core": {
             "target": "Package",
             "version": "[25.1.42, )"
           },
@@ -4415,19 +4522,7 @@
             "target": "Package",
             "version": "[25.1.42, )"
           },
-          "Syncfusion.Xamarin.SfComboBox": {
-            "target": "Package",
-            "version": "[25.1.42, )"
-          },
           "Syncfusion.Xamarin.SfListView": {
-            "target": "Package",
-            "version": "[25.1.42, )"
-          },
-          "Syncfusion.Xamarin.SfListView": {
-            "target": "Package",
-            "version": "[25.1.42, )"
-          },
-          "Syncfusion.Xamarin.SfRating": {
             "target": "Package",
             "version": "[25.1.42, )"
           },
@@ -4438,14 +4533,6 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.8.1, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.8.1, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

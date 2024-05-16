@@ -1,5 +1,8 @@
+using OpenAI_API;
 using OpenAI_API.Models;
 using System;
+using System.Net;
+using System.Net.Http;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,8 +20,7 @@ namespace ChatGPT
         {
             InitializeComponent();
 
-            AI.ChatGPT.model.Model = Model.GPT4_Turbo;
-            AI.ChatGPT.model.RequestParameters.Temperature = 0;
+            AI.ChatGPT.Initialize();
             MainPage = new Views.ChatConversationPage();
         }
 

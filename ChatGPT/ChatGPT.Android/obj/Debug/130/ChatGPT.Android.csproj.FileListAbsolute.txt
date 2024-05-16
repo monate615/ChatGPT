@@ -729,3 +729,5 @@ F:\VS\Git\ChatGPT\ChatGPT\ChatGPT.Android\obj\Debug\130\android\src\crc64f157626
 F:\VS\Git\ChatGPT\ChatGPT\ChatGPT.Android\obj\Debug\130\android\src\crc64f157626bc7c3379c\SfRatingItem.java
 F:\VS\Git\ChatGPT\ChatGPT\ChatGPT.Android\obj\Debug\130\android\src\crc64f606ab658bf2774f\SfShimmerRenderer.java
 F:\VS\Git\ChatGPT\ChatGPT\ChatGPT.Android\obj\Debug\130\android\src\crc64f606ab658bf2774f\ShimmerViewRenderer.java
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT.Android\obj\Debug\130\android\assets\SocksSharp.dll
+F:\VS\Git\ChatGPT\ChatGPT\ChatGPT.Android\obj\Debug\130\android\assets\StandardSocketsHttpHandler.dll

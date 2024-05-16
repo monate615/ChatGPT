@@ -27,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -107,7 +106,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,6 +138,14 @@
             "OpenAI": {
               "target": "Package",
               "version": "[1.11.0, )"
+            },
+            "SocksSharp": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "StandardSocketsHttpHandler": {
+              "target": "Package",
+              "version": "[2.2.0.8, )"
             },
             "Syncfusion.Xamarin.Buttons": {
               "target": "Package",

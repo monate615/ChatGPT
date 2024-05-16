@@ -17,6 +17,8 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Primitives.dll",
 		"Newtonsoft.Json.dll",
 		"OpenAI_API.dll",
+		"SocksSharp.dll",
+		"StandardSocketsHttpHandler.dll",
 		"Syncfusion.Buttons.XForms.Android.dll",
 		"Syncfusion.Buttons.XForms.dll",
 		"Syncfusion.Cards.XForms.Android.dll",

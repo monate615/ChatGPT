@@ -1,4 +1,7 @@
 using ChatGPT.Models;
+using OpenAI_API.Completions;
+using OpenAI_API.Models;
+using OpenAI_API.Moderation;
 using System;
 using System.Collections.ObjectModel;
 using System.Reflection;
@@ -288,34 +291,24 @@ namespace ChatGPT.ViewModels
                     Time = DateTime.Now,
                 });
 
-                try
-                {
-                    AI.ChatGPT.model.AppendUserInput(this.NewMessage);
-                }
-                catch (Exception ex)
-                {
-                    this.ChatMessageInfo.Add(new ChatMessage
-                    {
-                        Message = ex.Message,
-                        Time = DateTime.Now,
-                        IsReceived = true,
-                    });
-                }
-
                 Thread workThread = new Thread(new ThreadStart(new Action(() =>
                 {
-                    string ans = "";
+                    CompletionResult ans = new CompletionResult();
 
                     try
                     {
                         Task.Run(async () =>
                         {
-                            ans = await AI.ChatGPT.model.GetResponseFromChatbot();
+                            ans = await AI.ChatGPT.api.Completions.CreateCompletionAsync(
+                                new CompletionRequest(this.NewMessage, 
+                                                      model: Model.ChatGPTTurbo, 
+                                                      max_tokens: 50,
+                                                      temperature: 0.1)); ;
                         }).GetAwaiter().GetResult();
 
                         this.ChatMessageInfo.Add(new ChatMessage
                         {
-                            Message = ans,
+                            Message = ans.ToString(),
                             Time = DateTime.Now,
                             IsReceived = true,
                         });

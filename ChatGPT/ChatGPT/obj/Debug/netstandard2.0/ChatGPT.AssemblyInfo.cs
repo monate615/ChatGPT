@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatGPT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+986f687cd201cbcebaca0104325df2976ba71570")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67f69610db532722d7fbc859b5385f5c42b27972")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatGPT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatGPT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
