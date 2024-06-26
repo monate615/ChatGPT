@@ -20,3 +20,11 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+.vs
+ChatGPT/ChatGPT.Android/.vs
+ChatGPT/ChatGPT.Android/obj
+ChatGPT/ChatGPT.Android/bin
+ChatGPT/ChatGPT.iOS/.vs
+ChatGPT/ChatGPT.iOS/obj
+ChatGPT/ChatGPT.iOS/bin
+ChatGPT/ChatGPT/obj
